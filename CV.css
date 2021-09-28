@@ -7,6 +7,9 @@ main{
 	height: 297mm;
 	
 }
+h2{
+    margin-left: 10px;
+}
 
 /* NAVIGATION */
 #nav{
@@ -45,11 +48,44 @@ ul{
 }
 /* SECTION */
 #section{
-    background-color: blanchedalmond;
+    background-color: rgb(247, 244, 230);
     height: 297mm;
+    display: flex;
+    font-size: 12px;
+
 }
 .Nom{
     font-weight: bold;
     font-size: 7mm;
-    margin-left: 10px;
+    margin-left: 40px;
+}
+.Info{
+    display: flex;
+}
+.LInfo{
+    min-width: 100px;
+    
+}
+.RInfo{
+    display:flex;
+    padding-left: 10px;
+    flex-direction: column;
+}
+.TDescription{
+    margin-bottom: 10px;
+}
+.Description{
+    margin-bottom: 10px;
+}
+
+.gras{
+    font-weight: bold;
+}
+.Blue{
+    color: navy;
+}
+.profilStyle{
+    list-style: disc;
+}
+li.profilStyle{
 }
